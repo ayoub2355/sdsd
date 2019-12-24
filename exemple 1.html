@@ -1,0 +1,29 @@
+<html>
+<head>
+    <style>
+       
+        @keyframes anim1{from{background-color: cyan;}to{background-color: red;}}
+        @keyframes anim2{0%{top: 10px;left: 10px;}
+                         25%{top: 10px;left: 200px;}}
+                         50%{top: 200px;left: 200px;}
+                         70%{top: 200px;left: 10px;}
+                         100%{top: 10px;left: 10px;}
+        .ex1{animation-name: anim1;
+             border-style: double;
+             animation-duration: 5s;
+             animation-iteration-count: infinite;}
+        .ex2{animation-name: anim2;
+             background-color: blue;
+             position:relative;
+             width: 200px;
+             height: 100px;
+             animation-duration: 7s;
+              animation-iteration-count: infinite;}
+        
+    </style>    
+</head>
+<body>
+    <div class="ex1">BTS</div>
+    <div class="ex2">MCW</div>
+    </body>
+</html>
